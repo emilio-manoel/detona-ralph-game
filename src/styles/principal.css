@@ -2,6 +2,8 @@
 
 main{
     display:flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .menu{
@@ -12,4 +14,23 @@ main{
     height: 90px;
     background-color: #000000;
     color: #ffffff;
+}
+
+.painel{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.quadrado{
+    height: 150px;
+    width: 150px;
+    border: 1px solid green;
+    background-color: aquamarine;
+}
+
+.inimigo{
+    background-color: red;
 }
