@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+
 main{
     display:flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
+    background-image: url("/src/assets/image/wall.png");
 }
 
 .menu{
@@ -14,6 +16,7 @@ main{
     height: 90px;
     background-color: #000000;
     color: #ffffff;
+    border-bottom: 5px solid gold;
 }
 
 .painel{
@@ -21,16 +24,34 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+}
+
+.menu-pontos h2:nth-child(1),
+.menu-tempo h2:nth-child(1){
+    color: red;
+}
+
+
+.menu-pontos h2:nth-child(2),
+.menu-tempo h2:nth-child(2){
+    margin-top: 10px;
+}
+
+.menu-vidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quadrado{
     height: 150px;
     width: 150px;
-    border: 1px solid green;
-    background-color: aquamarine;
+    border: 1px solid black;
+    background-color: yellowgreen;
 }
 
 .inimigo{
-    background-color: red;
+    background-image: url("/src/assets/image/ralph.png");
+    background-size: cover;
 }
+
