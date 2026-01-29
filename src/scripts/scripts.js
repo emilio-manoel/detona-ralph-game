@@ -16,6 +16,12 @@ const status = {
     },
 };
 
+function tocarSom(){
+   let audio = new Audio("./src/assets/audios/hit.m4a");
+   audio.volume = 0.2;
+   audio.play(); 
+}
+
 function contagemRegressiva(){
     status.valor.tempoRestante--;
     status.vizualizacao.tempo.textContent = status.valor.tempoRestante;
@@ -48,8 +54,7 @@ function esperandoClick (){
             status.valor.resultado++;
             status.vizualizacao.pontos.textContent = status.valor.resultado;
             status.valor.posicaoAtaque = null;
-        }else{
-            
+            tocarSom();
         }
      });
     });
