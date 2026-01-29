@@ -8,13 +8,13 @@
 
 ## 📌 Sobre o projeto
 
-**Detona Ralph** é um jogo desenvolvido com as tecnologias básicas da web: **HTML, CSS e JavaScript**. Nele, o jogador precisa clicar rapidamente no personagem que aparece na tela para acumular pontos antes que o tempo acabe. ([DIO][1])
+**Detona Ralph** é um jogo desenvolvido com as tecnologias básicas da web: **HTML, CSS e JavaScript**. Nele, o jogador precisa clicar rapidamente no personagem que aparece na tela para acumular pontos antes que o tempo acabe. 
 
-O projeto foi construído como uma **primeira experiência prática de lógica de programação e interatividade no navegador**, aplicando eventos, manipulação de elementos e controle de estado de jogo. ([DIO][2])
+O projeto foi construído como uma **primeira experiência prática de lógica de programação e interatividade no navegador**, aplicando eventos, manipulação de elementos e controle de estado de jogo.
 
 ---
 
-## 🧠 Tecnologias usadas (explicado de forma simples)
+## 🧠 Tecnologias usadas 
 
 ### 🌐 HTML
 
@@ -24,13 +24,13 @@ O HTML é a espinha dorsal do jogo. Ele define o **conteúdo e a estrutura** da 
 
 ### 🎨 CSS
 
-O CSS cuida da **aparência visual**. É o que deixa cores, tamanhos, posições e espaçamentos bonitos e organizados na tela. Mesmo quando o jogo está funcionando, é o CSS que garante que tudo esteja visualmente limpo e agradável. ([DIO][2])
+O CSS cuida da **aparência visual**. É o que deixa cores, tamanhos, posições e espaçamentos bonitos e organizados na tela. Mesmo quando o jogo está funcionando, é o CSS que garante que tudo esteja visualmente limpo e agradável. 
 
 💡 CSS é como a **pintura e decoração** dessa casa.
 
 ### ⚙️ JavaScript
 
-O JavaScript faz o jogo **funcionar de verdade** — ele controla o tempo, atualiza a pontuação, detecta cliques e mostra mensagens finais. Sem JavaScript, o jogo seria apenas um desenho estático. ([DIO][2])
+O JavaScript faz o jogo **funcionar de verdade** — ele controla o tempo, atualiza a pontuação, detecta cliques e mostra mensagens finais. Sem JavaScript, o jogo seria apenas um desenho estático. 
 
 💡 JavaScript é o que dá **vida e movimento** ao jogo.
 
@@ -50,7 +50,7 @@ O JavaScript faz o jogo **funcionar de verdade** — ele controla o tempo, atual
 
 Este jogo foi uma etapa importante da minha jornada como desenvolvedor, pois me permitiu:
 
-* 💡 Consolidar a **logica de programação** com JavaScript, inclusive manipulação de eventos e DOM. ([DIO][2])
+* 💡 Consolidar a **logica de programação** com JavaScript, inclusive manipulação de eventos e DOM. 
 * 🧩 Aplicar conhecimentos práticos de **HTML e CSS** para criar interfaces interativas e visualmente organizadas.
 * 🚀 Entender como combinar estrutura, estilo e comportamento para construir uma experiência que vai além de páginas estáticas.
 * 📈 Preparar o terreno para projetos mais avançados — como jogos mais complexos, aplicações web com backend ou uso de frameworks modernos.
