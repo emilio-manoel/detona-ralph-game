@@ -78,6 +78,15 @@ function esperandoClick() {
                 status.valor.vidaJogador--;
                 status.vizualizacao.vidas.textContent = `x${status.valor.vidaJogador}`;
 
+                quadrado.classList.add("erro");
+                setTimeout(() => {
+                    quadrado.classList.remove("erro");
+                }, 500);
+
+                let audio = new Audio("./src/assets/audios/erro.mp3");
+                audio.volume = 0.5;
+                audio.play();
+
                 if (status.valor.vidaJogador <= 0) {
                     gameOver();
                 }

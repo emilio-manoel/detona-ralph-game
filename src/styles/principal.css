@@ -53,6 +53,10 @@ main {
   background-size: cover;
 }
 
+.erro {
+  background-color: red !important;
+}
+
 .painel-game-over {
   display: flex;
   flex-direction: column;
