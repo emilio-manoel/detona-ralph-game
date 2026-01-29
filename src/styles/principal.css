@@ -52,6 +52,5 @@ main{
 
 .inimigo{
     background-image: url("/src/assets/image/ralph.png");
-    background-size: cover;
+    background-size: cover; 
 }
-
