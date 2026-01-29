@@ -18,7 +18,7 @@ O projeto foi construído como uma **primeira experiência prática de lógica d
 
 ### 🌐 HTML
 
-O HTML é a espinha dorsal do jogo. Ele define o **conteúdo e a estrutura** da página — por exemplo, onde estão o tempo restante, a pontuação, vidas e os botões visíveis ao usuário. ([DIO][2])
+O HTML é a espinha dorsal do jogo. Ele define o **conteúdo e a estrutura** da página — por exemplo, onde estão o tempo restante, a pontuação, vidas e os botões visíveis ao usuário.
 
 💡 Pense no HTML como as **tijolinhos** que constroem a casa do jogo.
 
