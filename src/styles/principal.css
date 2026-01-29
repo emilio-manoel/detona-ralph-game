@@ -4,7 +4,7 @@ main {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url("/src/assets/image/wall.png");
+  background-image: url("../assets/image/wall.png");
 }
 
 .menu {
@@ -49,7 +49,7 @@ main {
 }
 
 .inimigo {
-  background-image: url("/src/assets/image/ralph.png");
+  background-image: url("../assets/image/ralph.png");
   background-size: cover;
 }
 
