@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detona Ralph</title>
-    <link rel="shortcut icon" href="src/assets/" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+      rel="shortcut icon"
+      href="src/assets/image/favicon.jpg  "
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles/reset.css" />
     <link rel="stylesheet" href="src/styles/principal.css" />
   </head>
@@ -25,7 +32,11 @@
         </div>
 
         <div class="menu-vidas">
-          <img src="src/assets/image/player.png" alt="foto do jogador" height="60px">
+          <img
+            src="src/assets/image/player.png"
+            alt="foto do jogador"
+            height="60px"
+          />
           <h2 id="vidas">x3</h2>
         </div>
       </div>
@@ -46,6 +57,12 @@
           <div class="quadrado" id="8"></div>
           <div class="quadrado" id="9"></div>
         </div>
+      </div>
+
+      <div class="painel-game-over" style="display: none">
+        <h2>Game Over!</h2>
+        <h3>Sua pontuação final foi: <span id="resultado-final">0</span></h3>
+        <button id="restart-button">Reiniciar Jogo</button>
       </div>
     </main>
 
