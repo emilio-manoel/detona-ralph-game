@@ -8,11 +8,23 @@ const status = {
     }, 
     valor: {
         tempo: null,
+        contagemRegressivaId: setInterval(contagemRegressiva, 1000),
         gameVelocidade: 1000,
         posicaoAtaque: 0,
         resultado: 0,
+        tempoRestante: 60,
     },
 };
+
+function contagemRegressiva(){
+    status.valor.tempoRestante--;
+    status.vizualizacao.tempo.textContent = status.valor.tempoRestante;
+    if(status.valor.tempoRestante <= 0){
+        clearInterval(status.valor.contagemRegressivaId);
+        clearInterval(status.valor.tempo);
+        alert("Game Over! O seu resultado foi de: " + status.valor.resultado + " pontos");
+    }
+}
 
 function quadradoAleatorio(){
     status.vizualizacao.quadrado.forEach((quadrado) => {
