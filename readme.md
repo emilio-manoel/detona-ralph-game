@@ -62,4 +62,6 @@ Este jogo foi uma etapa importante da minha jornada como desenvolvedor, pois me 
 👉 **Jogue online:**
 [https://emilio-manoel.github.io/detona-ralph-game/](https://emilio-manoel.github.io/detona-ralph-game/)
 
+ajudou a realizar o projeto: https://web.dio.me/track/f31d0ec6-b46a-47d6-b5ec-5dcd3766dacb
+
 
